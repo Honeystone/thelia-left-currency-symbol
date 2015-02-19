@@ -1,0 +1,8 @@
+= Thelia Left Currency Symbol =
+
+A module for Thelia 2 which relocates the currency symbol to the left side of monetary values.
+
+== Installation instructions ==
+
+Download this module to /path/to/thelia/local/modules/ and head over to your Thelia back office to
+activate the module.
