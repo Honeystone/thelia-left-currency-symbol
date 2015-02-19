@@ -5,9 +5,10 @@
  * @copyright Copyright (c) 2015, Honeystone Consulting Ltd.
  */
 
-namespace LeftCurrencySymbol\Smarty\Plugins;
+namespace LeftCurrencySymbol\Tools;
 
 use Thelia\Tools\MoneyFormat as BaseMoneyFormat;
+use Symfony\Component\HttpFoundation\Request;
 
 /**
  * MoneyFormat class
@@ -15,6 +16,10 @@ use Thelia\Tools\MoneyFormat as BaseMoneyFormat;
  * @author George Palmer <george@honeystone.com>
  */
 class MoneyFormat extends BaseMoneyFormat {
+
+    public static function getInstance(Request $request) {
+        return new MoneyFormat($request);
+    }
 
     public function format(
         $number,
