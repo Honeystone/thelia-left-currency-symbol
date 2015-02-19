@@ -1,0 +1,6 @@
+# Global
+.directory
+
+# IntelliJ IDEA
+.idea/
+*.iml
