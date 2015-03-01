@@ -1,5 +1,5 @@
 {
-    "name": "honeystone/left-currency-symbol",
+    "name": "honeystone/thelia-left-currency-symbol",
     "license": "MIT",
     "type": "thelia-module",
     "require": {
